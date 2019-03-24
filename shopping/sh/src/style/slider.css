@@ -1,0 +1,83 @@
+
+.fade {
+    transform-style: preserve-3d;
+    /* animation: slidein 3s ease-in 1s infinite reverse both running; */
+    /* -webkit-animation-name: fade; */
+    /* -webkit-animation-duration: 2.5s; */
+    /* animation-name: fade; */
+    /* animation-duration: 2.5s; */
+  }
+  @-webkit-keyframes fade {
+    from {opacity: .5} 
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .5} 
+    to {opacity: 1}
+  }
+
+/* .slide>*{
+    animation: slide 12s infinite ; 
+}
+.slide:nth-child(1){
+     left: 0%; 
+    animation-delay: -1s;
+}
+.slide:nth-child(2){
+    animation-delay: 2s;
+}
+.slide:nth-child(1){
+     left: 0%; 
+    animation-delay: 5s;
+} 
+@keyframes slide{
+0%{left:100%;width: 100%}
+5%{left: 0%;}
+25%{left:0%}
+30%{left: -100;width: 0%;} 
+ 30.0001%{left:-100%;width:0%} 
+ 100%{left: 100%;width: 0%;}
+} */
+
+
+@-webkit-keyframes mymove {
+  from {left: 0px;}
+  to {left: 200px;}
+}
+
+@keyframes mymove {
+  from {left: 0px;}
+  to {left: 200px;}
+}
+
+
+
+.div{
+    margin-top: -22px;
+    margin-left: 680px;
+    /* background-color: aqua; */
+    width: 100px;
+}
+
+.dot{
+    height: 15px;
+    width:15px;
+    /* position: absolute; */
+    background-color: rgb(221, 218, 218);
+    border-radius: 50px;
+    /* float: left; */
+    /* z-index: 2; */
+    position: relative;
+    display:inline-block;
+    margin-left: 10px;
+    cursor:pointer;
+}
+
+
+
+
+.h{
+    height: 400px;
+}
+

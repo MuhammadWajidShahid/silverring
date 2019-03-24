@@ -1,0 +1,59 @@
+.div7{
+    width: 1000px;
+    margin: auto;
+    /* background-color: red; */
+    height: 780px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background-color: white;
+}
+.div8{
+    height: 270px;
+    width: 240px;
+    cursor: pointer;
+    /* display: inline-block; */
+    /* background-color: aquamarine; */
+}
+.div9{
+    cursor: pointer;
+    /* position: relative; */
+    margin-top: 5px;
+    height: 230px;
+    width: 240px;
+    /* background-color: aquamarine; */
+    /* display: inline-block; */
+
+}
+.div10{
+    cursor: pointer;
+    margin-top: 5px;
+    height: 280px;
+    width: 240px;
+    /* background-color: aquamarine; */
+    /* display: inline-block; */
+    /* float: left; */
+    /* position: relative; */
+}
+.div11{
+    width: 750px;
+    height: 720px;
+    /* background-color: aqua; */
+    /* position: absolu/te; */
+    float: right;
+    margin-top: -730px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.div12{
+    height: 60px;
+    width: 750px;
+    /* background-color: aquamarine; */
+    float: right;
+    margin-top: -790px;
+}
+.headsale{
+    font-size: 20px;
+    margin-left: 10px;
+    font-weight: 600;
+}

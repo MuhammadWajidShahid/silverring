@@ -1,0 +1,52 @@
+.div6{
+    /* float: left; */
+    width: 100%;
+    height: 240px;
+    padding-top: 10px;
+    background-color: rgb(51, 51, 51);
+    /* margin: 10px; */
+    margin-top: -3px;
+    text-align: center;
+}
+
+.headjoin{
+    color: white;
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 0px;
+    /* margin-top: 10px; */
+}
+.headbefirst{
+    color: rgb(133, 133, 133);
+    text-align: center;
+    margin-top: 0px;
+}
+.email{
+    /* text-align: center; */
+    /* margin: auto; */
+    width: 600px;
+    height: 30px;
+    outline: none;
+    /* background-color: rgb(51, 51, 51); */
+    /* border: none; */
+    color: rgb(133, 133, 133);
+    margin-top: 20px;
+    font-size: 15px;
+    padding-left: 20px;
+    /* display: block; */
+    /* font-weight: 500 */
+}
+.subbut{
+    background-color: white;
+    height: 40px;
+    width: 130px;
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+    color: rgb(133, 133, 133);
+    border: none;
+    border-radius: 40px;
+    font-size: 15px;
+    font-weight: 700px;
+    cursor: pointer;
+}
